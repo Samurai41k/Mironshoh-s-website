@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #081b29;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 40px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 36px;
+    transition-duration: 0.4s;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    color: #00abf0;
+}
+
+
+
+
+
+
+
+.box {
+    float: left;
+    width: 24.2%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box i {
+    color: #ddd;
+}
+
+.box {
+    display: inline-block;
+    width: 23%;
+}
+
+h1 {
+    color: #00abf0;
+}
+
+.banner {
+    padding-top: 50px;
+}
+
+.banner i {
+    font-size: 35px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.banner p {
+    color: #999;
+    padding: 20px 0;
+    line-height: 25px;
+}
+
+.use {
+    padding: 25px 0;
+    color: #ddd;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
+.smart h1 {
+    padding: 70px 0;
+    color: #ddd;
+}
+
+.banner-two p {
+    color: #999;
+}
+
+
+.banner-two img {
+    border-radius: 100px;
+    border: 10px solid #00abf0;
+}
+
+.banner-box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-left: 30px;
+}
+
+
+.banner-box h1 {
+    padding: 20px 0;
+}
+
+.smart h1 {
+    font-size: 40px;
+}
+
+
+.banner-box p {
+    padding-bottom: 100px;
+    line-height: 25px;
+}
+
+.clr {
+    clear: both;
+}
